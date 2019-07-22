@@ -4,11 +4,16 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
 
-        <h1>Hello World</h1>
-
-      </header>
+        <div class="welcome">
+          <h1 font="Glacial Indifference">Welcome</h1>
+        </div>
+        <div>
+          <p>Take part on this real time survey!</p>
+        </div>
+        <div class="button" align="center">
+          <button class="button">START</button>
+        </div>
     </div>
   );
 }
